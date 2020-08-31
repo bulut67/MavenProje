@@ -35,10 +35,6 @@ public class Day07_IlkDers {
         WebElement first = driver.findElement(By.xpath("//span[@class='a-size-medium a-color-base a-text-normal']"));
       //  first.click();
 
-        List<WebElement> listem=driver.findElements(By.xpath("//span[@class='a-size-medium a-color-base a-text-normal']"));
-        for (WebElement w: listem){
-            System.out.println(w.getText());
-        }
 
 
     }
